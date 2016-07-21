@@ -13,8 +13,9 @@
     <!-- Excursion -->
     Choix d'excursion
     <select class="" name="">
-      <option value=""></option>
-      <option value=""></option>
+      <option value="excursionune"></option>
+      <option value="excursiondeux"></option>
+      <option value="excursiontrois"></option>
     </select>
 
   </body>
