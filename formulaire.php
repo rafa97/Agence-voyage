@@ -8,12 +8,12 @@
 
     <!-- formulaire saise -->
 
-  <form action="agence.php" method="post">
+  <form action="agence.php" method="get">
 
     Civilité
     <select>
-      <option value="civilite">Mme</option>
-      <option value="civilite">Mr</option>
+      <option value="civiliteMme">Mme</option>
+      <option value="civiliteMr">Mr</option>
     </select><br>
     Nom: <input type="text" name="nom"/><br>
     Prénom: <input type="text" name="prenom"/><br>
