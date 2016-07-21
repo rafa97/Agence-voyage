@@ -14,19 +14,6 @@
     <title></title>
   </head>
   <body>
-    <!-- Excursion -->
-      Faire le code ici
-    <!-- Excursion -->
-    <!-- Excursion -->
-      Faire le code ici
-    <!-- Excursion -->
-    Choix d'excursion
-    <select class="" name="">
-      <option value="excursionune"></option>
-      <option value="excursiondeux"></option>
-      <option value="excursiontrois"></option>
-    </select>
-
     <?php
 
         echo $_POST['voyage-excursion'];
@@ -37,9 +24,9 @@
     <form action="recapitulatif.php" method="get">
       Choix voyage
       <select>
-        <option value="voyage1">Les Caraïbes - super - 3500 € par pers</option>
-        <option value="voyage2">L'Asie du sud-est - génial - 4000 € par pers</option>
-        <option value="voyage3">Les Etats-Unis - trop fort - 4500 € par pers</option>
+        <option value="voyageCaraibes">Les Caraïbes - super - 3500 € par pers</option>
+        <option value="voyageAsieSud">L'Asie du sud-est - génial - 4000 € par pers</option>
+        <option value="voyageEtatsUnis">Les Etats-Unis - trop fort - 4500 € par pers</option>
       </select><br>
       Nombres de personnes :<input type="text" name="nombrePers"/><br>
       <input type="submit" value="Estimation"/>
@@ -50,9 +37,9 @@
     <form action="recapitulatif.php" method="post">
       Choix excursion
       <select>
-        <option value="escursion1">Visite Acropole - 250 € par pers</option>
-        <option value="excursion2">Visite Vallée du Nil - 300 € par pers</option>
-        <option value="excursion3">Découverte Capadoce - 350 € par pers</option>
+        <option value="escursionAcropole">Visite Acropole - 250 € par pers</option>
+        <option value="excursionValleNil">Visite Vallée du Nil - 300 € par pers</option>
+        <option value="excursionCapadoce">Découverte Capadoce - 350 € par pers</option>
       </select><br>
       Nombres de personnes :<input type="text" name="nombrePers"/><br>
       <input type="submit" value="Estimation"/>
