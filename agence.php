@@ -36,6 +36,8 @@
         <option value="excursion2">Visite Vallée du Nil - 300 € par pers</option>
         <option value="excursion3">Découverte Capadoce - 350 € par pers</option>
       </select><br>
+      Nombres de personnes :<input type="text" name="nombrePers"/><br>
+      <input type="submit" value="Estimation"/>
 
     </form>
 
