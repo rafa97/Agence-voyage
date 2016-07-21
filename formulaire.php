@@ -14,14 +14,13 @@
     <select>
       <option value="civilite">Mme</option>
       <option value="civilite">Mr</option>
-    </select><br>
-    Nom: <input type="text" name="nom"/><br>
-    Prénom: <input type="text" name="prenom"/><br>
-    Voyage <input type="radio" name="voyage"/><br>
-    Excursion <input type="radio" name="excursion"/><br>
-    <input type="submit" value="Suite"/>
-
-
+    </select>
+    <br>
+      Nom: <input type="text" name="nom"/><br>
+      Prénom: <input type="text" name="prenom"/><br>
+      Voyage <input type="radio" name="voyage"/><br>
+      Excursion <input type="radio" name="excursion"/><br>
+      <input type="submit" value="Suite"/>
   </form>
 
 
