@@ -8,7 +8,7 @@
 
     <!-- formulaire saise -->
 
-  <form action="agence.php" method="get">
+  <form action="agence.php" method="post">
 
     Civilité
     <select>
@@ -17,8 +17,8 @@
     </select><br>
     Nom: <input type="text" name="nom"/><br>
     Prénom: <input type="text" name="prenom"/><br>
-    Voyage <input type="radio" name="voyage"/><br>
-    Excursion <input type="radio" name="excursion"/><br>
+    Voyage <input type="radio" name="voyage-excursion" value="voyage"/><br>
+    Excursion <input type="radio" name="voyage-excursion" value="excursion"/><br>
     <input type="submit" value="Suite"/>
 
 

@@ -1,10 +1,10 @@
 <?php
 
   session_start();
-  $_SESSION['nom'] = $_GET['nom'];
-  $_SESSION['prenom'] = $_GET['prenom'];
-  $_SESSION['civiliteMme'] = $_GET['civiliteMme'];
-  $_SESSION['civiliteMr'] = $_GET['civiliteMr'];
+  $_SESSION['nom'] = $_POST['nom'];
+  $_SESSION['prenom'] = $_POST['prenom'];
+  $_SESSION['civiliteMme'] = $_POST['civiliteMme'];
+  $_SESSION['civiliteMr'] = $_POST['civiliteMr'];
  ?>
 
 <!DOCTYPE html>
@@ -14,6 +14,12 @@
     <title></title>
   </head>
   <body>
+
+    <?php
+
+        echo $_POST['voyage-excursion'];
+
+     ?>
 
       <!-- case voyage -->
     <form action="recapitulatif.php" method="get">
@@ -29,7 +35,7 @@
 
       <!-- case excursion -->
 
-    <form action="recapitulatif.php" method="get">
+    <form action="recapitulatif.php" method="post">
       Choix excursion
       <select>
         <option value="escursion1">Visite Acropole - 250 € par pers</option>
@@ -38,7 +44,6 @@
       </select><br>
       Nombres de personnes :<input type="text" name="nombrePers"/><br>
       <input type="submit" value="Estimation"/>
-
     </form>
 
   </body>
