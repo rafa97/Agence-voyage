@@ -1,0 +1,103 @@
+
+.form1 {
+  width: 400px;
+  height: 200px;
+  background-color: lightgrey;
+  padding: 5px 15px 15px 15px;
+  font-family: cursive, sans-serif;
+}
+.titre {
+  width: 430px;
+  height: 70px;
+  background-color: #FFAD2B;
+  text-align: center;
+  font-family: Comic sans MS, sans-serif;
+  vertical-align: middle;
+  padding: 1px 0 1px 0;
+  color: white;
+  font-size: 20px;
+}
+.form1 h3 {
+  text-align: center;
+  font-family: Comic sans MS;
+}
+.form1 select {
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+#inpNom {
+  margin-left: 42px;
+  margin-bottom: 5px;
+}
+#inpPrenom {
+  margin-left: 18px;
+  margin-bottom: 5px;
+}
+#inpVoyage {
+  margin-left: 31px;
+  margin-bottom: 5px;
+}
+#inpExcursion {
+  margin-left: 12px;
+  margin-bottom: 15px;
+}
+#inpSuite {
+  font-size: 17px;
+  padding: 2px 15px 2px 15px;
+  background-color: #FFAD2B;
+  color: white;
+}
+
+#inpSuite:hover {
+  background-color: #E8580C;
+}
+
+.form2 {
+  width: 400px;
+  height: 150px;
+  background-color: lightgrey;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: cursive, sans-serif;
+}
+
+.inpEstim {
+  font-size: 17px;
+  padding: 2px 15px 2px 15px;
+  background-color: #FFAD2B;
+  color: white;
+}
+.inpEstim:hover {
+  background-color: #E8580C;
+}
+
+.titreRecap {
+  width: 430px;
+  height: 70px;
+  background-color: #FFAD2B;
+  text-align: center;
+  font-family: Comic sans MS, sans-serif;
+  vertical-align: middle;
+  padding: 1px 0 1px 0;
+  color: white;
+  font-size: 20px;
+}
+
+.recap {
+  width: 400px;
+  height: 160px;
+  background-color: lightgrey;
+  padding: 5px 15px 15px 15px;
+  font-family: cursive, sans-serif;
+}
+
+.recap a {
+  text-decoration: none;
+  color: navy;
+}
+
+.recap a:hover {
+  color: blue;
+}
