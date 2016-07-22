@@ -22,6 +22,7 @@
 
     <div class="titre">
         <h3>Préparez votre séjour</h3><br>
+        <h5>Etape 1 sur 3</h5>
     </div>
       <form class="form1" action="agence.php" method="post">
         Civilité
@@ -29,9 +30,9 @@
           <option value="Mme">Mme</option>
           <option value="Mr">Mr</option>
         </select><br>
-        Nom: <input id="inpNom" type="text" name="nom"/><br>
-        Prénom: <input id="inpPrenom" type="text" name="prenom"/><br>
-        Voyage <input id="inpVoyage" type="radio" name="voyageExcursion" value="voyage"/><br>
+        Nom: <input id="inpNom" type="text" name="nom" area-required="true" required="required" placeholder="Entrez votre nom"/><br>
+        Prénom: <input id="inpPrenom" type="text" name="prenom" area-required="true" required="required" placeholder="Entrez votre prenom"/><br>
+        Voyage <input id="inpVoyage" type="radio" name="voyageExcursion" value="voyage" checked/><br>
         Excursion <input id="inpExcursion" type="radio" name="voyageExcursion" value="excursion"/><br>
         <input id="inpSuite" type="submit" value="J'y vais !"/>
       </form>

@@ -14,17 +14,33 @@
         <source src="video/LosRoques.webm" type="video/webm">
         <source src="video/LosRoques.mp4" type="video/mp4">
     </video>
+
+
     <div id="global">
       <h1>Bienvenue sur Fly</h1>
           <p>
             Veuillez remplir le formulaire afin de choisir le meilleur voyage pour vous.
+          </p>
+          <div class="titre">
+              <h3>Etape Finale</h3><br>
+          </div>
     <?php
     $nom = $_SESSION['nom'];
     $prenom = $_SESSION['prenom'];
     $civ = $_SESSION['civilite'];
     $voyageExc = $_SESSION['voyageExcursion'];
-    $lesVoyages = $_POST['lesVoyages'];
-    $lesExcursions = $_POST['lesExcursions'];
+    //$lesVoyages = $_POST['lesVoyages'];
+    if(empty($_POST['lesVoyages'])){
+      $lesVoyages = "";
+    } else {
+      $lesVoyages = $_POST['lesVoyages'];
+    }
+    //$lesExcursions = $_POST['lesExcursions'];
+    if(empty($_POST['lesExcursions'])){
+      $lesExcursions = "";
+    } else {
+      $lesExcursions = $_POST['lesExcursions'];
+    }
     $nombrePers =$_POST['nombrePers'];
 
     if ($lesVoyages == 1) {
@@ -61,7 +77,6 @@
       $prix = 0;
     }
 
-    echo '<div>';
     echo '<div class="titreRecap">';
     echo '<h3>Résumé de votre demande</h3>';
     echo '</div>';
@@ -70,9 +85,8 @@
     echo 'Vous avez choisi '.$genre.' <strong>'.$voyageExc.'</strong><br>';
     echo 'au prix de <strong>'.$prix.'</strong> par personne<br>';
     echo 'Vous nous avez indiqué '.$nombrePers.' personne(s)<br>';
-    echo 'Le montant total est de <strong>'.$total.'</strong><br>';
+    echo 'Le montant total est de <strong>'.$total.' €</strong><br>';
     echo '<p><a href="formulaire.php">Retour au formulaire</a></p>';
-    echo '</div>';
     echo '</div>';
 
     ?>

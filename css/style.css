@@ -25,9 +25,9 @@ video {
 .form1 {
   width: 400px;
   height: 200px;
-  background-color: lightgrey;
   padding: 5px 15px 15px 15px;
   font-family: cursive, sans-serif;
+	margin: auto;
 }
 .titre {
   width: 430px;
@@ -35,10 +35,10 @@ video {
   background-color: #FFAD2B;
   text-align: center;
   font-family: Comic sans MS, sans-serif;
-  vertical-align: middle;
   padding: 1px 0 1px 0;
   color: white;
   font-size: 20px;
+	margin: auto;
 }
 .form1 h3 {
   text-align: center;
@@ -53,15 +53,15 @@ video {
   margin-bottom: 5px;
 }
 #inpPrenom {
-  margin-left: 18px;
+  margin-left: 14px;
   margin-bottom: 5px;
 }
 #inpVoyage {
-  margin-left: 31px;
+  margin-left: -30px;
   margin-bottom: 5px;
 }
 #inpExcursion {
-  margin-left: 12px;
+  margin-left: -51px;
   margin-bottom: 15px;
 }
 #inpSuite {
@@ -76,12 +76,12 @@ video {
 .form2 {
   width: 400px;
   height: 150px;
-  background-color: lightgrey;
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   font-family: cursive, sans-serif;
+	margin: auto;
 }
 
 .inpEstim {
@@ -96,27 +96,29 @@ video {
 .titreRecap {
   width: 430px;
   height: 70px;
-  background-color: #FFAD2B;
+  background-color: #FFAD2B ;
   text-align: center;
   font-family: Comic sans MS, sans-serif;
   vertical-align: middle;
   padding: 1px 0 1px 0;
   color: white;
   font-size: 20px;
+	margin: auto;
 }
 .recap {
   width: 400px;
-  height: 160px;
-  background-color: lightgrey;
+  height: 250px;
+  background-color: ;
   padding: 5px 15px 15px 15px;
   font-family: cursive, sans-serif;
+	margin: auto;
 }
 .recap a {
   text-decoration: none;
-  color: navy;
+  color: cyan;
 }
 .recap a:hover {
-  color: blue;
+  color: #E8580C;
 }
 
 video#bgvid {
