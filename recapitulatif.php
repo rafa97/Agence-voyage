@@ -2,16 +2,19 @@
   session_start();
 ?>
 
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <title></title>
+    <title>formulaire</title>
   </head>
   <body>
-
+    <video autoplay loop poster="img/LosRoques.jpg" id="bgvid">
+        <source src="video/LosRoques.webm" type="video/webm">
+        <source src="video/LosRoques.mp4" type="video/mp4">
+    </video>
+    
     <?php
     $nom = $_SESSION['nom'];
     $prenom = $_SESSION['prenom'];

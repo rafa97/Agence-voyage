@@ -6,10 +6,20 @@
     <title>formulaire</title>
   </head>
   <body>
-
+    <video autoplay loop poster="img/LosRoques.jpg" id="bgvid">
+        <source src="video/LosRoques.webm" type="video/webm">
+        <source src="video/LosRoques.mp4" type="video/mp4">
+    </video>
+    ​
+    ​
+    <header>
+      <div id="global">
+        <h1>Bienvenue sur Fly</h1>
+            <p>
+              Veuillez remplir le formulaire afin de choisir le meilleur voyage pour vous.
 
       <!-- formulaire saisie -->
-  <div>
+
     <div class="titre">
         <h3>Préparez votre séjour</h3><br>
     </div>
@@ -25,8 +35,11 @@
         Excursion <input id="inpExcursion" type="radio" name="voyageExcursion" value="excursion"/><br>
         <input id="inpSuite" type="submit" value="J'y vais !"/>
       </form>
-  </div>
-      <!-- end formulaire saisie -->
 
-  </body>
+</p>
+</div>
+</header>
+​
+</body>
 </html>
+      <!-- end formulaire saisie -->
