@@ -87,3 +87,18 @@ a:hover {
   #bgvid, #polina button { display: none; }
   div{width:70%;}
 }
+
+input, textarea {
+    /*déjà en inline-block*/
+    width: 150px;
+    padding: 4px;
+    vertical-align: top;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 20px;
+    vertical-align: top;
+    text-align: right;
+}
