@@ -1,49 +1,54 @@
 <?php
+  session_start();
+  $_SESSION['nom'] = $_POST['nom'];
+  $_SESSION['prenom'] = $_POST['prenom'];
+  $_SESSION['civilite'] = $_POST['civilite'];
+  $_SESSION['voyageExcursion'] = $_POST['voyageExcursion'];
+ ?>
 
-session_start();
-$_SESSION['nom'] = $_POST['nom'];
-$_SESSION['prenom'] = $_POST['prenom'];
-$_SESSION['civiliteMme'] = $_POST['civiliteMme'];
-$_SESSION['civiliteMr'] = $_POST['civiliteMr'];
-?>
+ <!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="css/style.css" />
+     <title>formulaire</title>
+   </head>
+   <body>
+     <video autoplay loop poster="img/LosRoques.jpg" id="bgvid">
+         <source src="video/LosRoques.webm" type="video/webm">
+         <source src="video/LosRoques.mp4" type="video/mp4">
+     </video>
 
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title></title>
-</head>
-<body>
-  <?php
+      <!-- choix voyage ou excursion -->
 
-  echo $_POST['voyage-excursion'];
 
-  ?>
+    <?php
 
-  <!-- case voyage -->
-  <form action="recapitulatif.php" method="get">
-    Choix voyage
-    <select>
-      <option value="voyageCaraibes">Les Caraïbes - super - 3500 € par pers</option>
-      <option value="voyageAsieSud">L'Asie du sud-est - génial - 4000 € par pers</option>
-      <option value="voyageEtatsUnis">Les Etats-Unis - trop fort - 4500 € par pers</option>
-    </select><br>
-    Nombres de personnes :<input type="text" name="nombrePers"/><br>
-    <input type="submit" value="Estimation"/>
-  </form>
+      if ($_POST['voyageExcursion'] == "voyage") {
+        echo '<form class="form2" action="recapitulatif.php" method="post">';
+          echo 'Choix voyage ';
+          echo '<select name="lesVoyages">';
+            echo '<option value="1">Les Caraïbes - super - 2500 € par pers</option>';
+            echo '<option value="2">L\'Asie du sud-est - génial - 3000 € par pers</option>';
+            echo '<option value="3">Les Etats-Unis - trop fort - 3500 € par pers</option>';
+          echo '</select><br>';
+          echo 'Nombres de personnes :<input type="text" name="nombrePers"/><br>';
+          echo '<input class="inpEstim" type="submit" value="Estimation"/>';
+        echo '</form>';
+      } else {
+      echo '<form class="form2" action="recapitulatif.php" method="post">';
+        echo 'Choix excursion ';
+        echo'<select name="lesExcursions">';
+          echo '<option value="4">Visite Acropole - 250 € par pers</option>';
+          echo '<option value="5">Visite Vallée du Nil - 300 € par pers</option>';
+          echo '<option value="6">Découverte Capadoce - 350 € par pers</option>';
+        echo '</select><br>';
+        echo 'Nombres de personnes :<input type="text" name="nombrePers"/><br>';
+        echo '<input class="inpEstim" type="submit" value="Estimation"/>';
+      echo '</form>';
+      }
+    ?>
+      <!-- end choix voyage ou excursion -->
 
-  <!-- case excursion -->
-
-  <form action="recapitulatif.php" method="post">
-    Choix excursion
-    <select>
-      <option value="escursionAcropole">Visite Acropole - 250 € par pers</option>
-      <option value="excursionValleNil">Visite Vallée du Nil - 300 € par pers</option>
-      <option value="excursionCapadoce">Découverte Capadoce - 350 € par pers</option>
-    </select><br>
-    Nombres de personnes :<input type="text" name="nombrePers"/><br>
-    <input type="submit" value="Estimation"/>
-  </form>
-
-</body>
+  </body>
 </html>

@@ -21,6 +21,109 @@ video {
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 	background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg') no-repeat;
+}
+.form1 {
+  width: 400px;
+  height: 200px;
+  background-color: lightgrey;
+  padding: 5px 15px 15px 15px;
+  font-family: cursive, sans-serif;
+}
+.titre {
+  width: 430px;
+  height: 70px;
+  background-color: #FFAD2B;
+  text-align: center;
+  font-family: Comic sans MS, sans-serif;
+  vertical-align: middle;
+  padding: 1px 0 1px 0;
+  color: white;
+  font-size: 20px;
+}
+.form1 h3 {
+  text-align: center;
+  font-family: Comic sans MS;
+}
+.form1 select {
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+#inpNom {
+  margin-left: 42px;
+  margin-bottom: 5px;
+}
+#inpPrenom {
+  margin-left: 18px;
+  margin-bottom: 5px;
+}
+#inpVoyage {
+  margin-left: 31px;
+  margin-bottom: 5px;
+}
+#inpExcursion {
+  margin-left: 12px;
+  margin-bottom: 15px;
+}
+#inpSuite {
+  font-size: 17px;
+  padding: 2px 15px 2px 15px;
+  background-color: #FFAD2B;
+  color: white;
+}
+#inpSuite:hover {
+  background-color: #E8580C;
+}
+.form2 {
+  width: 400px;
+  height: 150px;
+  background-color: lightgrey;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: cursive, sans-serif;
+}
+
+.inpEstim {
+  font-size: 17px;
+  padding: 2px 15px 2px 15px;
+  background-color: #FFAD2B;
+  color: white;
+}
+.inpEstim:hover {
+  background-color: #E8580C;
+}
+.titreRecap {
+  width: 430px;
+  height: 70px;
+  background-color: #FFAD2B;
+  text-align: center;
+  font-family: Comic sans MS, sans-serif;
+  vertical-align: middle;
+  padding: 1px 0 1px 0;
+  color: white;
+  font-size: 20px;
+}
+.recap {
+  width: 400px;
+  height: 160px;
+  background-color: lightgrey;
+  padding: 5px 15px 15px 15px;
+  font-family: cursive, sans-serif;
+}
+.recap a {
+  text-decoration: none;
+  color: navy;
+}
+.recap a:hover {
+  color: blue;
+}
+
+video#bgvid {
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	background: url(../img/actual-cartographie-actual-multimedia.jpg) no-repeat;
 	background-size: cover;
 	-webkit-transition: 1s opacity;
 	transition: 1s opacity;
@@ -56,6 +159,8 @@ a {
 a:hover {
 	background: rgba(0,0,0,0.9);
 }
+
+
 
 .stopfade {
 	opacity: .5;
@@ -101,4 +206,9 @@ label {
     margin-right: 20px;
     vertical-align: top;
     text-align: right;
+}
+video { display: block; }
+.secteur {
+	font-weight:bold;
+	font-size:40px;
 }
