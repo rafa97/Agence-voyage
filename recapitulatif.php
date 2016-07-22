@@ -61,8 +61,8 @@
     echo '</div>';
     echo '<div class="recap">';
     echo '<br>Bonjour, '.$civ.' '.$prenom.' '.$nom.'<br>';
-    echo 'Vous avez choisi '.$genre.' <strong>'.$voyageExc.'</strong> au prix <br>';
-    echo 'de <strong>'.$prix.'</strong> par personne<br>';
+    echo 'Vous avez choisi '.$genre.' <strong>'.$voyageExc.'</strong><br>';
+    echo 'au prix de <strong>'.$prix.'</strong> par personne<br>';
     echo 'Vous nous avez indiqué '.$nombrePers.' personne(s)<br>';
     echo 'Le montant total est de <strong>'.$total.'</strong><br>';
     echo '<p><a href="formulaire.php">Retour au formulaire</a></p>';

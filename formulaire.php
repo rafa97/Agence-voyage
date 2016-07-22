@@ -7,7 +7,7 @@
   </head>
   <body>
 
-<<<<<<< HEAD
+
       <!-- formulaire saisie -->
   <div>
     <div class="titre">
@@ -27,25 +27,6 @@
       </form>
   </div>
       <!-- end formulaire saisie -->
-=======
-    <!-- formulaire saise -->
-
-  <form action="agence.php" method="post">
-
-    Civilité
-    <select>
-      <option value="civiliteMme">Mme</option>
-      <option value="civiliteMr">Mr</option>
-    </select><br>
-    Nom: <input type="text" name="nom"/><br>
-    Prénom: <input type="text" name="prenom"/><br>
-    Voyage <input type="radio" name="voyage-excursion" value="voyage"/><br>
-    Excursion <input type="radio" name="voyage-excursion" value="excursion"/><br>
-    <input type="submit" value="Suite"/>
-
-  </form>
-
->>>>>>> 354837596569e2253ab0222f4c7bc4976fd3627a
 
   </body>
 </html>

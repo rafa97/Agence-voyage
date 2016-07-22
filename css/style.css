@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 .form1 {
   width: 400px;
   height: 200px;
@@ -48,11 +46,9 @@
   background-color: #FFAD2B;
   color: white;
 }
-
 #inpSuite:hover {
   background-color: #E8580C;
 }
-
 .form2 {
   width: 400px;
   height: 150px;
@@ -73,7 +69,6 @@
 .inpEstim:hover {
   background-color: #E8580C;
 }
-
 .titreRecap {
   width: 430px;
   height: 70px;
@@ -85,7 +80,6 @@
   color: white;
   font-size: 20px;
 }
-
 .recap {
   width: 400px;
   height: 160px;
@@ -93,15 +87,12 @@
   padding: 5px 15px 15px 15px;
   font-family: cursive, sans-serif;
 }
-
 .recap a {
   text-decoration: none;
   color: navy;
 }
-
 .recap a:hover {
   color: blue;
-=======
 video#bgvid {
 	position: fixed; right: 0; bottom: 0;
 	min-width: 100%; min-height: 100%;
@@ -109,11 +100,8 @@ video#bgvid {
 	background: url(../img/actual-cartographie-actual-multimedia.jpg) no-repeat;
 	background-size: cover;
 }
-
 video { display: block; }
-
 .secteur {
 	font-weight:bold;
 	font-size:40px;
->>>>>>> 354837596569e2253ab0222f4c7bc4976fd3627a
 }
