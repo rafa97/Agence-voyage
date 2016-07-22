@@ -40,7 +40,7 @@
             echo '<option value="2">L\'Asie du sud-est - génial - 3000 € par pers</option>';
             echo '<option value="3">Les Etats-Unis - trop fort - 3500 € par pers</option>';
           echo '</select><br>';
-          echo 'Nombres de personnes :<input type="number" name="nombrePers" area-required="true" required="required" min="1" max="150"/><br>';
+          echo 'Nombres de personnes :<input type="number" name="nombrePers" area-required="true" required="required" min="1" max="150" value="1"/><br>';
           echo '<input class="inpEstim" type="submit" value="Estimation"/>';
         echo '</form>';
       } else {
@@ -51,7 +51,7 @@
           echo '<option value="5">Visite Vallée du Nil - 300 € par pers</option>';
           echo '<option value="6">Découverte Capadoce - 350 € par pers</option>';
         echo '</select><br>';
-        echo 'Nombres de personnes :<input type="number" name="nombrePers" area-required="true" required="required" min="1" max="150"/><br>';
+        echo 'Nombres de personnes :<input type="number" name="nombrePers" area-required="true" required="required" min="1" max="150" value="1"/><br>';
         echo '<input class="inpEstim" type="submit" value="Estimation"/>';
       echo '</form>';
       }
