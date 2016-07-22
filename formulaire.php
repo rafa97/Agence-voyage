@@ -12,7 +12,7 @@
     </video>
     ​
     ​
-    <header>
+
       <div id="global">
         <h1>Bienvenue sur Fly</h1>
             <p>

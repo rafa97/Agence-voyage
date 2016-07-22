@@ -14,7 +14,10 @@
         <source src="video/LosRoques.webm" type="video/webm">
         <source src="video/LosRoques.mp4" type="video/mp4">
     </video>
-    
+    <div id="global">
+      <h1>Bienvenue sur Fly</h1>
+          <p>
+            Veuillez remplir le formulaire afin de choisir le meilleur voyage pour vous.
     <?php
     $nom = $_SESSION['nom'];
     $prenom = $_SESSION['prenom'];
@@ -74,6 +77,6 @@
 
     ?>
 
-
+</div>
   </body>
 </html>
