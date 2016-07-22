@@ -14,9 +14,14 @@
     <title></title>
   </head>
   <body>
+<<<<<<< HEAD
+=======
+    <?php
+>>>>>>> 354837596569e2253ab0222f4c7bc4976fd3627a
 
       <!-- choix voyage ou excursion -->
 
+<<<<<<< HEAD
     <?php
 
       if ($_POST['voyageExcursion'] == "voyage") {
@@ -45,6 +50,34 @@
     ?>
 
       <!-- end choix voyage ou excursion -->
+=======
+     ?>
+
+      <!-- case voyage -->
+    <form action="recapitulatif.php" method="get">
+      Choix voyage
+      <select>
+        <option value="voyageCaraibes">Les Caraïbes - super - 3500 € par pers</option>
+        <option value="voyageAsieSud">L'Asie du sud-est - génial - 4000 € par pers</option>
+        <option value="voyageEtatsUnis">Les Etats-Unis - trop fort - 4500 € par pers</option>
+      </select><br>
+      Nombres de personnes :<input type="text" name="nombrePers"/><br>
+      <input type="submit" value="Estimation"/>
+    </form>
+
+      <!-- case excursion -->
+
+    <form action="recapitulatif.php" method="post">
+      Choix excursion
+      <select>
+        <option value="escursionAcropole">Visite Acropole - 250 € par pers</option>
+        <option value="excursionValleNil">Visite Vallée du Nil - 300 € par pers</option>
+        <option value="excursionCapadoce">Découverte Capadoce - 350 € par pers</option>
+      </select><br>
+      Nombres de personnes :<input type="text" name="nombrePers"/><br>
+      <input type="submit" value="Estimation"/>
+    </form>
+>>>>>>> 354837596569e2253ab0222f4c7bc4976fd3627a
 
   </body>
 </html>

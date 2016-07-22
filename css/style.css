@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .form1 {
   width: 400px;
@@ -100,4 +101,19 @@
 
 .recap a:hover {
   color: blue;
+=======
+video#bgvid {
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	background: url(../img/actual-cartographie-actual-multimedia.jpg) no-repeat;
+	background-size: cover;
+}
+
+video { display: block; }
+
+.secteur {
+	font-weight:bold;
+	font-size:40px;
+>>>>>>> 354837596569e2253ab0222f4c7bc4976fd3627a
 }
